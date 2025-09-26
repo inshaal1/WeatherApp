@@ -1,0 +1,60 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(250, 236, 209);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: wheat;
+  padding: 10px 20px;
+  margin: 0 0 10px 0;
+  box-shadow: 2px 2px 4px 0px #c9a771;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:400px;
+    margin:0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 0px #c9a771;
+    border: 1px solid #d9b171;
+    border-radius: 20px;
+    
+}
+footer{
+    margin-top: 20px;
+}
+button{
+    background-color: #ebc485;
+    border: 1px solid #d9b171;
+    border-radius: 20px;
+    padding: 5px  15px;
+    margin:2px;
+}
+.Cityinput{
+    display: flex;
+    justify-content: center;
+}
+.Form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+input,select{
+    border-radius: 20px;
+}
+.Display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
